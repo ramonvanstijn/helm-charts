@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  labels:
+    app: {{ template "update-configmap-demo.name" . }}
+data:
+  default.conf: {{ .Files.Get "files/default.conf" | printf "%s" | indent 4 }}
