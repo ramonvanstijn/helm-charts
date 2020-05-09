@@ -3,11 +3,11 @@ entries:
   update-configmap-demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-09T12:40:35.069033+02:00"
+    created: "2020-05-09T12:54:01.28886+02:00"
     description: Demo automatic rolling update of deployment when a configmap changes
-    digest: eba48f698fe406252f3d91103f71dd75f0d34897480ef866cb51f722744cef37
+    digest: 84d854618abccd533efa96ec40d64f21b90f493f4d18a8195d9f276a681468f5
     name: update-configmap-demo
     urls:
     - https://raw.githubusercontent.com/ramonvanstijn/helm-charts/master/repo/update-configmap-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-09T12:40:35.066899+02:00"
+generated: "2020-05-09T12:54:01.288096+02:00"
